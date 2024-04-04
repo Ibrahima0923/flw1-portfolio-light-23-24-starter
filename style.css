@@ -1,12 +1,55 @@
-/* Add flexbox to the navbars. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #3498db;
+    color: #000000; /* Black text color */
 
-/* Format the size of all images. */
+   
+}
 
-/* Style the font color. */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* Style the background with a color or image. */
+.profile {
+    text-align: center;
+}
 
-/* Adjust the spacing of your page. */
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
-/* Adjust the positioning of your page.  */
+.profile h2 {
+    margin: 0;
+}
 
+.about-me-box,
+.experience-box,
+.faq-box {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000000; /* Black text color */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
